@@ -1,38 +1,164 @@
-.App {
+body {
+  overflow: hidden;
+}
+
+.homepage,
+.loginpage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.7;
+  background-image: url(./images/film-reel.png);
+  background-repeat: no-repeat;
+  background-origin: initial;
+  background-position-x: -370px;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.registerBox {
+  list-style: none;
+  margin-top: 125px;
+  height: 450px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+
+.clapperImage {
+  width: 100%;
+  height: 150px;
+  background-image: url(./images/Clapperboard.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: initial;
+  background-position-x: center;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.loginHere {
+  height: 15px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-size: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginHere a:hover,
+.loginHere a:visited,
+.loginHere a:link,
+.loginHere a:active {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.registerForm {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.registerLabel {
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.registerLabel:nth-of-type(4) {
+  margin-bottom: 0;
+}
+
+/* .registerLabel:first-of-type {
+  margin-top: 15px;
+} */
+
+.registerLabel input {
+  width: 230px;
+}
+
+.labelInput {
+  float: right;
+  margin-right: 20px;
+}
+
+#hiddenLine {
+  height: 10px;
+  padding: 0;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formComment {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+  color: red;
+  visibility: visible;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+.submitButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Log in page specifics */
+
+#logintext {
+  padding-bottom: 25px;
+}
+
+#registerLabelLogin {
+  padding-bottom: 52px;
+}
+
+/* Home screen specifics */
+
+.homeScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  background-image: none;
+  z-index: 20;
+  opacity: 1;
 }
