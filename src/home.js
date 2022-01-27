@@ -1,13 +1,13 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 import Login from "./LoginUser";
 
 
 function Home() {
-    const baseURL = "http://localhost/home"
+    // const baseURL = "http://localhost/home"
 
-    const [state, setState] = useState("");
+    // const [state, setState] = useState("");
 
     return (
         <>

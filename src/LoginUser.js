@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 import Home from "./home";
 
 function Login() {
-  const baseURL = "http://localhost/login";
+  // const baseURL = "http://localhost/login";
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
