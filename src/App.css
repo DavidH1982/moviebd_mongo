@@ -2,6 +2,15 @@ body {
   overflow: hidden;
 }
 
+.blankBG {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .homepage,
 .loginpage {
   height: 100vh;
@@ -161,4 +170,94 @@ h2 {
   background-image: none;
   z-index: 20;
   opacity: 1;
+}
+
+.film {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 120px;
+  background: #111111;
+  overflow: hidden;
+  display: flex;
+}
+
+.film::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  background: #5e5e5e;
+  border-radius: 15%;
+  box-shadow: 20px 0px 0px #5e5e5e, 40px 0px 0px #5e5e5e, 60px 0px 0px #5e5e5e, 80px 0px 0px #5e5e5e, 100px 0px 0px #5e5e5e, 120px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 160px 0px 0px #5e5e5e, 180px 0px 0px #5e5e5e, 200px 0px 0px #5e5e5e, 220px 0px 0px #5e5e5e, 240px 0px 0px #5e5e5e, 260px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 300px 0px 0px #5e5e5e, 320px 0px 0px #5e5e5e, 340px 0px 0px #5e5e5e, 360px 0px 0px #5e5e5e, 380px 0px 0px #5e5e5e, 400px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 440px 0px 0px #5e5e5e, 460px 0px 0px #5e5e5e, 480px 0px 0px #5e5e5e, 500px 0px 0px #5e5e5e, 520px 0px 0px #5e5e5e, 540px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 580px 0px 0px #5e5e5e, 600px 0px 0px #5e5e5e, 620px 0px 0px #5e5e5e, 640px 0px 0px #5e5e5e, 660px 0px 0px #5e5e5e, 680px 0px 0px #5e5e5e, 700px 0px 0px #5e5e5e, 720px 0px 0px #5e5e5e, 740px 0px 0px #5e5e5e, 760px 0px 0px #5e5e5e, 780px 0px 0px #5e5e5e, 800px 0px 0px #5e5e5e, 820px 0px 0px #5e5e5e, 840px 0px 0px #5e5e5e, 860px 0px 0px #5e5e5e, 880px 0px 0px #5e5e5e, 900px 0px 0px #5e5e5e, 920px 0px 0px #5e5e5e, 940px 0px 0px #5e5e5e, 960px 0px 0px #5e5e5e, 980px 0px 0px #5e5e5e, 1000px 0px 0px #5e5e5e, 1020px 0px 0px #5e5e5e, 1040px 0px 0px #5e5e5e, 1060px 0px 0px #5e5e5e, 1080px 0px 0px #5e5e5e, 1100px 0px 0px #5e5e5e, 1120px 0px 0px #5e5e5e, 1140px 0px 0px #5e5e5e, 1160px 0px 0px #5e5e5e, 1180px 0px 0px #5e5e5e, 1200px 0px 0px #5e5e5e, 1220px 0px 0px #5e5e5e, 1240px 0px 0px #5e5e5e, 1260px 0px 0px #5e5e5e, 1280px 0px 0px #5e5e5e, 1300px 0px 0px #5e5e5e, 1320px 0px 0px #5e5e5e, 1340px 0px 0px #5e5e5e, 1360px 0px 0px #5e5e5e, 1380px 0px 0px #5e5e5e, 1400px 0px 0px #5e5e5e, 1420px 0px 0px #5e5e5e, 1440px 0px 0px #5e5e5e, 1460px 0px 0px #5e5e5e, 1480px 0px 0px #5e5e5e, 1500px 0px 0px #5e5e5e, 1520px 0px 0px #5e5e5e, 1540px 0px 0px #5e5e5e, 1560px 0px 0px #5e5e5e, 1580px 0px 0px #5e5e5e, 1600px 0px 0px #5e5e5e;
+}
+
+.film::after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  background: #5e5e5e;
+  border-radius: 15%;
+  box-shadow: 20px 0px 0px #5e5e5e, 40px 0px 0px #5e5e5e, 60px 0px 0px #5e5e5e, 80px 0px 0px #5e5e5e, 100px 0px 0px #5e5e5e, 120px 0px 0px #5e5e5e, 140px 0px 0px #5e5e5e, 160px 0px 0px #5e5e5e, 180px 0px 0px #5e5e5e, 200px 0px 0px #5e5e5e, 220px 0px 0px #5e5e5e, 240px 0px 0px #5e5e5e, 260px 0px 0px #5e5e5e, 280px 0px 0px #5e5e5e, 300px 0px 0px #5e5e5e, 320px 0px 0px #5e5e5e, 340px 0px 0px #5e5e5e, 360px 0px 0px #5e5e5e, 380px 0px 0px #5e5e5e, 400px 0px 0px #5e5e5e, 420px 0px 0px #5e5e5e, 440px 0px 0px #5e5e5e, 460px 0px 0px #5e5e5e, 480px 0px 0px #5e5e5e, 500px 0px 0px #5e5e5e, 520px 0px 0px #5e5e5e, 540px 0px 0px #5e5e5e, 560px 0px 0px #5e5e5e, 580px 0px 0px #5e5e5e, 600px 0px 0px #5e5e5e, 620px 0px 0px #5e5e5e, 640px 0px 0px #5e5e5e, 660px 0px 0px #5e5e5e, 680px 0px 0px #5e5e5e, 700px 0px 0px #5e5e5e, 720px 0px 0px #5e5e5e, 740px 0px 0px #5e5e5e, 760px 0px 0px #5e5e5e, 780px 0px 0px #5e5e5e, 800px 0px 0px #5e5e5e, 820px 0px 0px #5e5e5e, 840px 0px 0px #5e5e5e, 860px 0px 0px #5e5e5e, 880px 0px 0px #5e5e5e, 900px 0px 0px #5e5e5e, 920px 0px 0px #5e5e5e, 940px 0px 0px #5e5e5e, 960px 0px 0px #5e5e5e, 980px 0px 0px #5e5e5e, 1000px 0px 0px #5e5e5e, 1020px 0px 0px #5e5e5e, 1040px 0px 0px #5e5e5e, 1060px 0px 0px #5e5e5e, 1080px 0px 0px #5e5e5e, 1100px 0px 0px #5e5e5e, 1120px 0px 0px #5e5e5e, 1140px 0px 0px #5e5e5e, 1160px 0px 0px #5e5e5e, 1180px 0px 0px #5e5e5e, 1200px 0px 0px #5e5e5e, 1220px 0px 0px #5e5e5e, 1240px 0px 0px #5e5e5e, 1260px 0px 0px #5e5e5e, 1280px 0px 0px #5e5e5e, 1300px 0px 0px #5e5e5e, 1320px 0px 0px #5e5e5e, 1340px 0px 0px #5e5e5e, 1360px 0px 0px #5e5e5e, 1380px 0px 0px #5e5e5e, 1400px 0px 0px #5e5e5e, 1420px 0px 0px #5e5e5e, 1440px 0px 0px #5e5e5e, 1460px 0px 0px #5e5e5e, 1480px 0px 0px #5e5e5e, 1500px 0px 0px #5e5e5e, 1520px 0px 0px #5e5e5e, 1540px 0px 0px #5e5e5e, 1560px 0px 0px #5e5e5e, 1580px 0px 0px #5e5e5e, 1600px 0px 0px #5e5e5e;
+}
+
+.film div {
+  width: 120px;
+  height: 72px;
+  top: 50%;
+  transform: translate(10%, -36%);
+  margin-left: 10px;
+  box-shadow: inset 0px 0px 10px 0px #b7410e;
+  display: inline-block;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.navlink {
+  box-sizing: border-box;
+  height: 72px;
+  width: 120px;
+  top: 50%;
+  transform: translate(10%, 34%);
+  margin-left: 10px;
+  box-shadow: inset 0px 0px 10px 0px #b7410e;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.navlink:link,
+.navlink:active,
+.navlink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+/* Database cards */
+
+.moviedbcards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.infocard {
+  height: 250px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10%;
+  list-style: none;
+  margin-bottom: 20px;
 }

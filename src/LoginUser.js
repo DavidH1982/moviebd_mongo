@@ -25,6 +25,8 @@ function Login() {
   return (
       <>
         <Router>
+            <div className="blankBG"></div>
+            <div className="background"></div>
             <div>
                 <div className="loginpage">
                     <ul>

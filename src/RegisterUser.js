@@ -49,6 +49,7 @@ function App() {
   return (
     <>
     <Router>
+    <div className="blankBG"></div>
       <div className="background"></div>
       <div className="homepage">
         <ul>
