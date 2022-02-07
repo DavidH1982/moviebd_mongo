@@ -6,7 +6,7 @@ import Register from "./components/register";
 import Login from "./components/login";
 
 function App() {
-  const baseURL = `${process.env.BASE_URL}`;
+  // const baseURL = `${process.env.BASE_URL}`;
 
   return (
     <div className="App">
